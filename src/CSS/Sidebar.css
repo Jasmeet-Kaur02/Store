@@ -9,16 +9,16 @@
 .line {
   display: block;
   width: 32px;
-  height: 4px;
+  height: 3px;
   border-radius: 5px;
   background-color: rgb(27, 27, 31);
   transition: all 0.5s;
   opacity: 0.8;
-  margin-top: 2px;
+  margin-top: 3px;
   z-index: 1;
 }
 .line1 {
-  transform: translateY(5px) rotate(-135deg);
+  transform: translateY(4px) rotate(-135deg);
   background-color: white;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .line3 {
-  transform: translateY(-7px) rotate(135deg);
+  transform: translateY(-8px) rotate(135deg);
   background-color: white;
 }
 
@@ -47,7 +47,48 @@
 
 .open {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   opacity: 1;
   border-radius: 0;
+}
+
+.sidebarHeader {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebarHeader h3 {
+  font-size: 2.5rem;
+  color: rgb(221, 219, 219);
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
+.sidebarBody ul {
+  margin-top: 20px;
+  color: rgb(221, 219, 219);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarBody ul li {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  line-height: 5rem;
+  transition: all 0.3s linear;
+}
+
+.sidebarFooter {
+  margin-top: 10px;
+  color: rgb(221, 219, 219);
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
 }

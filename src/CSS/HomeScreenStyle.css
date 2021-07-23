@@ -38,6 +38,23 @@
   height: 250px;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.cardsContainer {
+  height: calc(100% -435px);
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  background-color: #eaefef;
+  padding: 10px;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .img {
     width: 180px;
@@ -66,11 +83,12 @@
   }
 }
 
-.links {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
+@media screen and (max-width: 483px) {
+  .cardsContainer {
+    grid-template-columns: repeat(1, 100%);
+  }
 }
+
 @media screen and (max-width: 450px) {
   .img {
     width: 120px;
