@@ -5,6 +5,7 @@ import ShoppingCartIcon from "@material-ui/icons/AddShoppingCartOutlined";
 import IconStyles from "../CSS/IconStyle";
 import Sidebar from "./Sidebar";
 import { useMediaQuery } from "../misc/custom-hooks";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const classes = IconStyles();
@@ -17,7 +18,9 @@ const Header = () => {
         <p>PetStore</p>
       </div>
       <div className={styles.cartContainer}>
-        <ShoppingCartIcon className={classes.cartIcon} />
+        <Link to="/checkout" className={styles.link}>
+          <ShoppingCartIcon className={classes.cartIcon} />
+        </Link>
       </div>
     </div>
   );

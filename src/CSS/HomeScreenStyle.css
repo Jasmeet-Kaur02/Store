@@ -45,12 +45,10 @@
 }
 
 .cardsContainer {
-  height: calc(100% -435px);
-  overflow-y: scroll;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
-  background-color: #eaefef;
+  /*background-color: #eaefef;*/
   padding: 10px;
   margin-top: 20px;
 }

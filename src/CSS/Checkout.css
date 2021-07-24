@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10%;
+  justify-content: space-between;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.sec-1 {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+}
+
+.sec-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.price {
+  display: none;
+}
+
+.sec-3 {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 15%;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.total {
+  height: 65px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px 150px;
+  margin-top: 20px;
+}
+.head {
+  font-size: 2rem;
+  color: rgb(175, 172, 172);
+}
+.amt {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.msg {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: rgb(192, 189, 189);
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .sec-1 {
+    width: 100px;
+    height: 100px;
+  }
+  .total {
+    padding: 0px 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .itemContainer {
+    margin: 10px 5%;
+  }
+  .total {
+    justify-content: space-between;
+    padding: 0px 60px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .sec-1 {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+  }
+  .sec-3 {
+    display: none;
+  }
+  .price {
+    display: inline;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .total {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .name {
+    font-size: 1rem;
+  }
+  .sec-4 {
+    font-size: 1.2rem;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  .total {
+    padding: 0px 20px;
+  }
+}
