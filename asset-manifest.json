@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Store/static/css/main.ab58a115.chunk.css",
+    "main.js": "/Store/static/js/main.14471c92.chunk.js",
+    "main.js.map": "/Store/static/js/main.14471c92.chunk.js.map",
+    "runtime-main.js": "/Store/static/js/runtime-main.9316bebd.js",
+    "runtime-main.js.map": "/Store/static/js/runtime-main.9316bebd.js.map",
+    "static/js/2.2fd149fb.chunk.js": "/Store/static/js/2.2fd149fb.chunk.js",
+    "static/js/2.2fd149fb.chunk.js.map": "/Store/static/js/2.2fd149fb.chunk.js.map",
+    "static/js/3.6402ebfd.chunk.js": "/Store/static/js/3.6402ebfd.chunk.js",
+    "static/js/3.6402ebfd.chunk.js.map": "/Store/static/js/3.6402ebfd.chunk.js.map",
+    "index.html": "/Store/index.html",
+    "service-worker.js": "/Store/service-worker.js",
+    "service-worker.js.map": "/Store/service-worker.js.map",
+    "static/css/main.ab58a115.chunk.css.map": "/Store/static/css/main.ab58a115.chunk.css.map",
+    "static/js/2.2fd149fb.chunk.js.LICENSE.txt": "/Store/static/js/2.2fd149fb.chunk.js.LICENSE.txt",
+    "static/media/birdIcon.c8b399d3.jpg": "/Store/static/media/birdIcon.c8b399d3.jpg",
+    "static/media/cat-6.80200fed.jpg": "/Store/static/media/cat-6.80200fed.jpg",
+    "static/media/catIcon.12af22a0.jpg": "/Store/static/media/catIcon.12af22a0.jpg",
+    "static/media/rabbitIcon.f5421880.jpg": "/Store/static/media/rabbitIcon.f5421880.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9316bebd.js",
+    "static/js/2.2fd149fb.chunk.js",
+    "static/css/main.ab58a115.chunk.css",
+    "static/js/main.14471c92.chunk.js"
+  ]
+}
