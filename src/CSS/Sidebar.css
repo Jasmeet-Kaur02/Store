@@ -74,13 +74,23 @@
   align-items: center;
 }
 
-.sidebarBody ul li {
+.link-items {
   font-size: 1.4rem;
   font-weight: lighter;
   font-family: "Poppins", sans-serif;
   list-style: none;
   line-height: 5rem;
   transition: all 0.3s linear;
+}
+
+.link {
+  color: rgb(221, 219, 219);
+  text-decoration: none;
+}
+
+.link-active li {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .sidebarFooter {
